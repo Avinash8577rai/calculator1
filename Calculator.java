@@ -9,6 +9,10 @@ class Calculator{
 	public static int multipilcation(int a,int b){
 		return a*b;
 	}
+	public static int divide(int a,int b){
+		return a/b;
+	}
+
 
 	public static void main(String[] agrs){
 		Scanner scanner = new Scanner(System.in);
@@ -16,5 +20,5 @@ class Calculator{
 		double a = scanner.nextDouble();
 		double b = scanner.nextDouble();
 		
-		System.out.println(multipilcation(a,b));
+		System.out.println(divide(a,b));
 }}
